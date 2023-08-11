@@ -1,0 +1,110 @@
+.container {
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+#dichvuiphone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .container_mot img {
+  width: 1150px;
+  height: 600px;
+  margin-bottom: 20px;
+}
+.container .container_hai {
+  display: flex;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.container .container_hai p {
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.container .container_ba {
+  gap: 0px;
+  margin: 0;
+  border-spacing: 0px;
+  /* display: flex;
+  margin-left: 20px;
+  justify-content: flex-start;
+  align-items: flex-start; */
+}
+
+.container .container_ba td {
+  border: 1px solid;
+  width: 380px;
+  gap: 0px;
+  box-shadow: 0 0 0 1px black;
+  height: 35px;
+}
+.container .container_ba th {
+  border: 1px solid;
+  width: 380px;
+  gap: 0px;
+  box-shadow: 0 0 0 1px black;
+  height: 60px;
+}
+.container .container_ba td p {
+  font-size: large;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#dongmay,
+#nguyenmay,
+#thoigian {
+  height: 60px;
+}
+.container .container_nam button {
+  background-color: #000044;
+  color: aliceblue;
+  height: 50px;
+  width: 250px;
+}
+.container .container_sau {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(209, 206, 206);
+  width: 100%;
+  height: 70px;
+}
+.container .container_sau p {
+  font-weight: bold;
+  font-size: x-large;
+}
+#dichvukhac {
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .container_tam {
+  gap: 0px;
+  border-spacing: 0px;
+  /* margin-left: 150px;
+  margin-right: 150px; */
+}
+/* .container .container_tam th {
+  border: 1px solid;
+  width: 200px;
+  gap: 0px;
+  box-shadow: 0 0 0 1px black;
+  height: 60px;
+} */
+.container .container_tam td {
+  border: 1px solid;
+  width: 80%;
+  gap: 0px;
+  box-shadow: 0 0 0 1px black;
+  height: 35px;
+}
